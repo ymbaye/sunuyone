@@ -13,7 +13,7 @@ namespace sunuyone.Models
         [DisplayName("Arrivée")]
         public string Arrivee { get; set; }
         [DisplayName("Date")]
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         [DisplayName("Lieu de rencontre")]
         public string LieuRencontre { get; set; }
         [DisplayName("Heure de départ")]
